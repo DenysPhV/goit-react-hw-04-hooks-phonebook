@@ -1,0 +1,40 @@
+.list {
+  margin-top: 20px;
+}
+
+.text {
+  display: inline-block;
+  width: 120px;
+  font-size: 15px;
+}
+
+.text:first-child {
+  font-weight: 500;
+}
+
+.text:nth-child(2) {
+  text-decoration: underline;
+}
+
+.button {
+  width: 130px;
+  margin-top: 10px;
+  padding: 5px;
+  margin-left: 2%;
+
+  font-size: 15px;
+
+  border: 1px solid #808080;
+  border-radius: 15px;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  cursor: pointer;
+
+  transition: box-shadow 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(71, 88, 180);
+  color: #ffffff;
+}
